@@ -95,10 +95,10 @@ boxplot(chlorides ~ quality, data=wine, ylab='Chlorides',main='Chlorides by Qual
 boxplot(chlorides ~ type_wine, data=wine, ylab='Chlorides',main='Chlorides by Type Wine',col='skyblue')
 
 
-boxplot(wine$free.sulfur.dioxide,ylab='Free Sulfur Dioxide')
-boxplot.stats(wine$free.sulfur.dioxide)$out
-boxplot(free.sulfur.dioxide ~ quality, data=wine, ylab='Free Sulfur Dioxide',main='Free Sulfur Dioxide by Quality',col='skyblue')
-boxplot(free.sulfur.dioxide ~ type_wine, data=wine, ylab='Free Sulfur Dioxide',main='Free Sulfur Dioxide by Type Wine',col='skyblue')
+#boxplot(wine$free.sulfur.dioxide,ylab='Free Sulfur Dioxide')
+#boxplot.stats(wine$free.sulfur.dioxide)$out
+#boxplot(free.sulfur.dioxide ~ quality, data=wine, ylab='Free Sulfur Dioxide',main='Free Sulfur Dioxide by Quality',col='skyblue')
+#boxplot(free.sulfur.dioxide ~ type_wine, data=wine, ylab='Free Sulfur Dioxide',main='Free Sulfur Dioxide by Type Wine',col='skyblue')
 
 
 
@@ -289,3 +289,6 @@ hist(wine$quality,freq=FALSE,col="lightsalmon",main="Histograma Quality Wine")
 hist(wine_red$quality,freq=FALSE,col="lightsalmon",main="Histograma Quality Red Wine")
 hist(wine_white$quality,freq=FALSE,col="lightsalmon",main="Histograma Quality White Wine")
 
+#fichero de salida
+
+write.csv(wine, file = "/Users/ccastillo/OneDrive - Universitat Oberta de Catalunya/Tipología y Ciclo de Vida de los Datos/Practica2/wine_out.csv")
