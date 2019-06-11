@@ -1,0 +1,30 @@
+---
+title: "README"
+author: "Constancia Castillo Ibañez"
+date: "9/6/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# QUALITY WINE
+
+Datos de la calidad del vino y de sus atributos químicos del vino portugués Vinho-Verde.
+
+
+## Autor
+Constancia Castillo Ibáñez
+
+## Acerca de este software
+
+. Este software es parte de la Práctica 2 de la asignatura: "Tipologia y ciclo de vida de los datos".
+. Master de Data Science.
+. Universitat Oberta of Catalunya.
+
+
+## Dataset
+
+https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
+
