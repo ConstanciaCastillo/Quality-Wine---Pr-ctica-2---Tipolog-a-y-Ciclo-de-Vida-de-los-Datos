@@ -5,7 +5,7 @@
 
 Limpieza y Validación de datos de la calidad del vino y de sus atributos químicos del vino portugués Vinho-Verde.
 
-##Miembros del Equipo
+## Miembros del Equipo
 
 La práctica ha sido realizada individualmente por **Constancia Castillo Ibáñez**
 
